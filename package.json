@@ -1,0 +1,45 @@
+{
+  "name": "hls-recorder",
+  "version": "0.0.1",
+  "description": "A tool to download HLS streams and save the related files locally",
+  "main": "index.js",
+  "scripts": {
+    "lint": "xo",
+    "test": "npm run lint && npm audit --audit-level high && AWS_SDK_LOAD_CONFIG=true node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuu/hls-recorder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuu/hls-recorder/issues"
+  },
+  "homepage": "https://github.com/kuu/hls-recorder#readme",
+  "dependencies": {
+    "aws-sdk": "^2.469.0",
+    "config": "^3.1.0",
+    "hls-stream": "^1.0.0"
+  },
+  "devDependencies": {
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "rules": {
+      "capitalized-comments": 0,
+      "dot-notation": 0,
+      "indent": 0,
+      "new-cap": 0,
+      "no-cond-assign": 0,
+      "no-multi-assign": 0,
+      "padding-line-between-statements": 0,
+      "import/no-dynamic-require": 0,
+      "unicorn/catch-error-name": 0,
+      "unicorn/filename-case": 0
+    }
+  }
+}
