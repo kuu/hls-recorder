@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/kuu/hls-recorder#readme",
   "dependencies": {
-    "aws-sdk": "^2.469.0",
+    "aws-sdk": "^2.814.0",
     "config": "^3.1.0",
     "hls-stream": "^1.0.0"
   },
